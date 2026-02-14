@@ -1,0 +1,10 @@
+mapscripts TownA_MapScripts {
+    //setflag(FLAG_RECEIVED_RUNNING_SHOES)
+}
+
+script TownA_EventScript_Girl1 {
+    setflag(FLAG_RECEIVED_RUNNING_SHOES)
+    lockall
+    msgbox(format("My mom told me that when a POKéMON gets really old, they can walk off into the sunset.\pDo you think our POKéMON would ever meet over there?"))
+    releaseall
+}
